@@ -40,4 +40,12 @@ Tight spacing, monochrome, borders for depth."
 
 1. Check if `.design-engineer/system.md` exists
 2. **If exists**: Apply established patterns
-3. **If not**: Assess context, suggest direction, get confirmation, build, offer to save
+3. **If not**: Assess context, suggest direction, get confirmation, build
+
+## After Every Task
+
+Offer to save when you finish building UI:
+
+"Want me to save these patterns to `.design-engineer/system.md`?"
+
+Always offer — new patterns should be captured whether system.md exists or not.

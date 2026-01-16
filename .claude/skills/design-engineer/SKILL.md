@@ -128,7 +128,7 @@ Read `.design-engineer/system.md` and apply. Decisions are made.
 1. Assess context — What's the product? Who uses it?
 2. Suggest + ask — State recommendation, get confirmation
 3. Build — Apply principles
-4. **Offer to save** — Always ask after completing the task
+4. Offer to save
 
 ---
 
