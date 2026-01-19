@@ -173,6 +173,20 @@ If you can't explain WHY for each choice, you're defaulting. Stop and think.
 
 ---
 
+# Where Defaults Hide
+
+Defaults don't announce themselves. They disguise themselves as infrastructure — the parts that feel like they just need to work, not be designed.
+
+**Typography feels like a container.** Pick something readable, move on. But typography isn't holding your design — it IS your design. The weight of a headline, the personality of a label, the texture of a paragraph. These shape how the product feels before anyone reads a word. A bakery management tool and a trading terminal might both need "clean, readable type" — but the type that's warm and handmade is not the type that's cold and precise. If you're reaching for your usual font, you're not designing.
+
+**Navigation feels like scaffolding.** Build the sidebar, add the links, get to the real work. But navigation isn't around your product — it IS your product. Where you are, where you can go, what matters most. A page floating in space is a component demo, not software. The navigation teaches people how to think about the space they're in.
+
+**Data feels like presentation.** You have numbers, show numbers. But a number on screen is not design. The question is: what does this number mean to the person looking at it? What will they do with it? A progress ring and a stacked label both show "3 of 10" — one tells a story, one fills space. If you're reaching for number-on-label, you're not designing.
+
+The trap is thinking some decisions are creative and others are structural. There are no structural decisions. Everything is design. The moment you stop asking "why this?" is the moment defaults take over.
+
+---
+
 # Design Principles
 
 ## Spacing
@@ -235,6 +249,8 @@ Before finishing:
 - **Surface check** — are elevation changes whisper-quiet, not dramatic?
 - **Depth consistency** — one strategy throughout?
 - **States complete** — hover, focus, disabled, loading, error?
+
+**The swap test, everywhere.** You already know to ask: if I swapped my visual choices for the most common alternatives, would the design feel meaningfully different? Now ask it about the parts that feel like infrastructure. If you swapped the typeface for your usual one — would it matter? If you swapped the metrics for number-on-label — would anyone notice? If you removed the navigation and left the page floating — would it still feel like a product? The places where swapping wouldn't matter are the places you defaulted.
 
 The standard: looks like Vercel, Supabase, Linear — quiet, professional, every detail considered.
 
