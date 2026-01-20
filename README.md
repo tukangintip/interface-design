@@ -28,20 +28,20 @@ When you build UI with Claude, design decisions get made: spacing values, colors
 **Design Engineer helps you:**
 
 1. **Craft** — Principle-based design that produces professional, polished interfaces
-2. **Memory** — Save decisions to `.design-engineer/system.md`, load automatically
+2. **Memory** — Save decisions to `.interface-design/system.md`, load automatically
 3. **Consistency** — Every component follows the same principles throughout the session
 
 Make choices once. Apply them consistently.
 
 ## Before & After
 
-**Without design-engineer:**
+**Without interface-design:**
 - Every session starts from scratch
 - Button heights drift (36px, 38px, 40px...)
 - Random spacing values (14px, 17px, 22px...)
 - No consistency across components
 
-**With design-engineer:**
+**With interface-design:**
 - System loads automatically each session
 - Patterns reused (Button: 36px, Card: 16px pad)
 - Spacing on grid (4px, 8px, 12px, 16px)
@@ -57,25 +57,25 @@ See the difference: **[dashboard-v4-eta.vercel.app](https://dashboard-v4-eta.ver
 
 ```bash
 # Add the marketplace
-/plugin marketplace add Dammyjay93/claude-design-engineer
+/plugin marketplace add Dammyjay93/claude-interface-design
 
 # Install the plugin
 /plugin menu
 ```
 
-Select `design-engineer` from the menu. Restart Claude Code after.
+Select `interface-design` from the menu. Restart Claude Code after.
 
 Gets you:
 - Principle-based craft for every UI component
 - Automatic system.md loading every session
 - Per-component design checkpoint
-- Commands (/design-engineer status, audit, extract)
+- Commands (/interface-design status, audit, extract)
 
 ### Manual (Advanced)
 
 ```bash
-git clone https://github.com/Dammyjay93/claude-design-engineer.git
-cd claude-design-engineer
+git clone https://github.com/Dammyjay93/claude-interface-design.git
+cd claude-interface-design
 cp -r .claude/* ~/.claude/
 cp -r .claude-plugin/* ~/.claude-plugin/
 ```
@@ -88,12 +88,12 @@ Restart Claude Code.
 
 ### The Flow
 
-When you build UI with design-engineer:
+When you build UI with interface-design:
 
 **If system.md exists:**
 ```
 ✓ Reads skill files and principles
-✓ Loads .design-engineer/system.md
+✓ Loads .interface-design/system.md
 ✓ Applies established patterns
 ✓ States design choices before each component
 ✓ Offers to save new patterns
@@ -131,7 +131,7 @@ Spacing: 8px base
 
 [Builds dashboard with consistent depth, spacing, surfaces]
 
-Want me to save these patterns to .design-engineer/system.md?
+Want me to save these patterns to .interface-design/system.md?
 
 [You: y]
 
@@ -162,7 +162,7 @@ The system **remembers** across sessions.
 
 ## System File
 
-After establishing direction, your decisions live in `.design-engineer/system.md`:
+After establishing direction, your decisions live in `.interface-design/system.md`:
 
 ```markdown
 # Design System
@@ -202,10 +202,10 @@ This file loads automatically at session start. Claude sees it and maintains con
 ## Commands
 
 ```bash
-/design-engineer:init           # Start building with design principles
-/design-engineer:status         # Show current system
-/design-engineer:audit <path>   # Check code against system
-/design-engineer:extract        # Extract patterns from existing code
+/interface-design:init           # Start building with design principles
+/interface-design:status         # Show current system
+/interface-design:audit <path>   # Check code against system
+/interface-design:extract        # Extract patterns from existing code
 ```
 
 ---
@@ -246,11 +246,11 @@ All old URLs redirect automatically.
 rm -rf ~/.claude/skills/design-principles
 
 # Install new plugin
-/plugin marketplace add Dammyjay93/claude-design-engineer
+/plugin marketplace add Dammyjay93/claude-interface-design
 /plugin menu
 ```
 
-Your system.md files (if any) continue to work — just rename `.ds-engineer/` to `.design-engineer/`.
+Your system.md files (if any) continue to work — just rename `.ds-engineer/` to `.interface-design/`.
 
 ---
 
@@ -271,5 +271,5 @@ MIT — See [LICENSE](LICENSE)
 ---
 
 <p align="center">
-  <a href="https://design-engineer.vercel.app">Website</a> · <a href="https://github.com/Dammyjay93/claude-design-engineer">GitHub</a>
+  <a href="https://interface-design.vercel.app">Website</a> · <a href="https://github.com/Dammyjay93/claude-interface-design">GitHub</a>
 </p>

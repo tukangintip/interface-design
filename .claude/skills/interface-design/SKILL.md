@@ -1,5 +1,5 @@
 ---
-name: design-engineer
+name: interface-design
 description: This skill is for interface design — dashboards, admin panels, apps, tools, and interactive products. NOT for marketing design (landing pages, marketing sites, campaigns).
 ---
 
@@ -264,7 +264,7 @@ When you finish building something, **always offer to save**:
 "Want me to save these patterns for future sessions?"
 ```
 
-If yes, write to `.design-engineer/system.md`:
+If yes, write to `.interface-design/system.md`:
 - Direction and feel
 - Depth strategy (borders/shadows/layered)
 - Spacing base unit
@@ -297,7 +297,7 @@ Direction: [approach that connects to the above]"
 ```
 
 ## If Project Has system.md
-Read `.design-engineer/system.md` and apply. Decisions are made.
+Read `.interface-design/system.md` and apply. Decisions are made.
 
 ## If No system.md
 1. Explore domain — Produce all four required outputs (domain, color world, signature, defaults)
@@ -316,6 +316,6 @@ For more detail on specific topics:
 
 # Commands
 
-- `/design-engineer:status` — Current system state
-- `/design-engineer:audit` — Check code against system
-- `/design-engineer:extract` — Extract patterns from code
+- `/interface-design:status` — Current system state
+- `/interface-design:audit` — Check code against system
+- `/interface-design:extract` — Extract patterns from code

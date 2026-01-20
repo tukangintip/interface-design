@@ -1,13 +1,13 @@
 {
-  "name": "design-engineer",
+  "name": "interface-design",
   "description": "Design engineering for Claude Code. Build interfaces with craft, memory, and consistency. Maintains design decisions across sessions.",
-  "version": "2026.1.19.1326",
+  "version": "2026.1.20.1407",
   "author": {
     "name": "Damola Akinleye",
     "url": "https://github.com/Dammyjay93"
   },
-  "homepage": "https://github.com/Dammyjay93/claude-design-engineer",
-  "repository": "https://github.com/Dammyjay93/claude-design-engineer",
+  "homepage": "https://github.com/Dammyjay93/claude-interface-design",
+  "repository": "https://github.com/Dammyjay93/claude-interface-design",
   "commands": "./.claude/commands",
   "skills": "./.claude/skills"
 }

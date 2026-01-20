@@ -1,6 +1,6 @@
 # Memory Management
 
-When and how to update `.design-engineer/system.md`.
+When and how to update `.interface-design/system.md`.
 
 ## When to Add Patterns
 

@@ -1,9 +1,9 @@
 ---
-name: design-engineer:extract
+name: interface-design:extract
 description: Extract design patterns from existing code to create a system.md file.
 ---
 
-# design-engineer extract
+# interface-design extract
 
 Extract design patterns from existing code to create a system.
 
@@ -67,7 +67,7 @@ Patterns:
   Button: 36px h, 12px 16px pad, 6px radius
   Card: 1px border, 16px pad
 
-Create .design-engineer/system.md with these? (y/n/customize)
+Create .interface-design/system.md with these? (y/n/customize)
 ```
 
 ## Implementation

@@ -1,9 +1,9 @@
 ---
-name: design-engineer:audit
+name: interface-design:audit
 description: Check existing code against your design system for spacing, depth, color, and pattern violations.
 ---
 
-# design-engineer audit
+# interface-design audit
 
 Check existing code against your design system.
 
@@ -16,7 +16,7 @@ Check existing code against your design system.
 
 ## What to Check
 
-**If `.design-engineer/system.md` exists:**
+**If `.interface-design/system.md` exists:**
 
 1. **Spacing violations**
    - Find spacing values not on defined grid

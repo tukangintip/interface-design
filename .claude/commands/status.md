@@ -1,15 +1,15 @@
 ---
-name: design-engineer:status
+name: interface-design:status
 description: Show current design system state including direction, tokens, and patterns.
 ---
 
-# design-engineer status
+# interface-design status
 
 Show current design system state.
 
 ## What to Show
 
-**If `.design-engineer/system.md` exists:**
+**If `.interface-design/system.md` exists:**
 
 Display:
 ```
@@ -39,12 +39,12 @@ No design system found.
 
 Options:
 1. Build UI → system will be established automatically
-2. Run /design-engineer:extract → pull patterns from existing code
+2. Run /interface-design:extract → pull patterns from existing code
 ```
 
 ## Implementation
 
-1. Read `.design-engineer/system.md`
+1. Read `.interface-design/system.md`
 2. Parse direction, tokens, patterns
 3. Format and display
 4. If no system, suggest next steps
